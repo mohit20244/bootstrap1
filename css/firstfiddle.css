@@ -1,0 +1,178 @@
+/* nav css*/
+.weblogo{
+    width: 65px;
+}
+.navbar{
+    background: #00000083 !important;
+
+} 
+
+.navbar-nav li{
+    padding: 0 10px;
+
+}
+.navbar-nav li a{
+    color: white !important;
+    font-weight: 600;
+    font-size: 15px;
+
+}
+.moblogo{
+    display: none;
+}
+
+/* nav css end*/
+.a {
+    text-align: center;
+    padding-top: 20px;
+    text-transform: uppercase;
+    font-family: 'prague';
+    letter-spacing: 3px;
+}
+.b {
+    line-height: 35px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    padding-right: 5px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.img123 {
+    width: 80%;
+}
+
+.c {
+    background-image: url(../image/images.jpg);
+    width: 100%;
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+    padding-top: 100px;
+}
+.d{
+    line-height: 35px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    padding-right: 5px;
+    color: white;
+    text-align: center;
+
+}
+.e{
+    color: white;
+    line-height: 35px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    padding-right: 5px;
+}
+
+footer{
+    background: #111215;;
+    padding: 50%;
+    
+}
+footer .fimage
+{
+    width:50%px;
+    margin-top: 60px;
+
+
+}
+
+
+@media(max-width:768px)
+{
+    .moblogo{
+        display: block;
+    }
+    .weblogo{
+        display: none;
+    }
+    .navbar{
+        background:orange !important;
+    
+    } 
+    .img123 {
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+
+
+/* ABOUT CSS START */
+
+.ccc{
+    background-image: url(../image/ourimage.jpg);
+    width: 100%;
+    height: 650px;
+    background-position: center;
+    background-size: cover;
+}
+
+.ap{
+    line-height: 35px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    padding-right: 5px;
+    text-align: justify;
+}
+.c2{
+    background: url(https://pn-paul.netlify.app/image/gamebanner.jpg);
+    width: 100%;
+    height: 300px;
+}
+.bp{
+    line-height: 40px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    padding-right: 5px;
+    margin-top: 40px;
+    text-align: center;
+    font-weight: lighter;
+    padding-bottom: 2cm;
+    color: white;
+
+}
+.aa{
+    line-height: 35px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    padding-right: 5px;
+    text-align: justify;
+    color: white;
+    margin-top: 60px;
+}
+.ex{
+    padding-top: 20px;
+    text-transform: uppercase;
+    font-family: 'prague';
+    letter-spacing: 3px;
+
+}
+.our{
+    padding-top: 20px;
+    text-transform: uppercase;
+    font-family: 'prague';
+    letter-spacing: 3px;
+}
+.cp
+{
+    line-height: 40px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    padding-right: 5px;
+    margin-top: 20px;
+    font-weight: lighter;
+    padding-bottom: 2cm;
+}
+
+/* Brand css */
+
+.cccc{
+    background: url(https://pn-paul.netlify.app/image/brands.jpg);
+    width: 100%;
+    height: 630px;
+    background-position: center;
+    background-size: cover;
+}
